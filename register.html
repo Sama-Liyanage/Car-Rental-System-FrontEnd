@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>register</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/boostrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="assets/style/register.css">
+</head>
+<body>
+
+<section id="registerPage">
+    <img id="registrationImage" src="assets/images/other/registrationImage.png">
+
+    <div id="registerDiv">
+        <form class="row g-3">
+            <div class="col-md-3">
+                <input type="text" class="form-control"  placeholder="First Name" name="first_name" id="txtFName">
+                <small class="text-danger" id="errortxtFName" style="display: none">! Wrong format (Only
+                    A-z,space and . can be included) </small>
+            </div>
+
+            <div class="col-md-3">
+                <input type="text" class="form-control"  placeholder="Last Name"  name="last_name" id="txtLName">
+                <small class="text-danger" id="errortxtLName" style="display: none">! Wrong format (Only
+                    A-z,space and . can be included) </small>
+            </div>
+
+            <div class="col-md-3">
+                <input type="text" class="form-control" placeholder="E-Mail Address"  name="email" id="txtEmail">
+                <small class="text-danger" id="errortxtEmail" style="display: none">! Wrong format  </small>
+            </div>
+            <div class="col-md-3">
+                <input type="password" class="form-control"  placeholder="Password" name="password" id="txtPassword">
+                <small class="text-danger" id="errortxtPassword" style="display: none">! Wrong format (Password must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters)</small>
+            </div>
+
+            <div class="col-md-3">
+            <input class="form-control" type="password" placeholder="Repeat Password" name="password_repeat" id="txtConfirmPassword">
+                <small class="text-danger" id="errortxtConfirmPassword" style="display: none">Password did not match</small>
+            </div>
+
+            <button id="btn_Register" class="btn btn-success" type="button"> Register Account </a></button>
+
+
+            <div id="ftnPassword" class="text-center"><a class="small" href="">Forgottten Password?</a>
+            </div>
+
+            <div id="haveAccount" class="text-center"><a class="small" href="logIn.html">Already have an account? Login!</a>
+            </div>
+        </form>
+    </div>
+
+</section>
+
+<script src="assets/jQuery/jquery-3.6.0.min.js"></script>
+<script src="assets/boostrap/js/bootstrap.min.js"></script>
+<script src="assets/js/script.js"></script>
+<script src="assets/js/login/register.js"></script>
+
+</body>
+</html>
