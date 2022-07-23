@@ -7,24 +7,21 @@
     text-decoration: none;
     scroll-behavior: smooth;
 }
-#driverSchedule{
-    min-height: 100vh;
+#driverProfile{
     height: 100vh;
     width: 100%;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    align-items: center;
-    grid-gap: 4rem;
+    overflow: hidden;
 }
-#cover{
+#driverSchedule{
+    height: auto;
+    width: 100%;
+}
+#cover1{
     width: 80%;
     height: 81%;
-    position: absolute;
+    position: relative;
     margin: auto;
-    top: 49px;
+    top: 97px;
     right: 0;
     bottom: 0;
     left: 0;
@@ -40,4 +37,15 @@
     filter: brightness(88%);
     bottom: 23px;
     position: relative;
+}
+#cover2{
+    width: 80%;
+    height: 81%;
+    position: relative;
+    margin: auto;
+    top: 49px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #dfe6e9;
 }
