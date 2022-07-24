@@ -20,7 +20,7 @@
         <li class="nav-item"><a class="nav-link " aria-current="page" href="#adminDashBoard">Admin DashBoard</a></li>
         <li class="nav-item"><a class="nav-link " aria-current="page" href="#adminProfile">My Profile</a></li>
         <li class="nav-item"><a class="nav-link " aria-current="page" href="#ad-Customer">Customers</a></li>
-        <li class="nav-item"><a class="nav-link " aria-current="page" href="">Cars</a></li>
+        <li class="nav-item"><a class="nav-link " aria-current="page" href="#ad-Car">Cars</a></li>
         <li class="nav-item"><a class="nav-link " aria-current="page" href="">Drivers</a></li>
         <li class="nav-item"><a class="nav-link " aria-current="page" href="">Orders</a></li>
         <li class="nav-item"><a class="nav-link " aria-current="page" href="">Payments</a></li>
@@ -40,7 +40,7 @@
     <section id="adminProfile">
         <div id="cover2">
         </div>
-        
+
     </section>
 
 <!--Customer Section-->
@@ -120,6 +120,125 @@
 
 </section>
 
+<!--Car Section    -->
+<section id="ad-Car">
+    <div id="cover4">
+
+        <div id="carDiv">
+            <form class="row g-3">
+                <div class="col-md-2">
+                    <input type="text" class="form-control" id="adCarId" name="id"  placeholder="C###">
+                </div>
+                <div class="col-md-2">
+                    <input type="text" class="form-control" id="adCarRegistration" name="reg"  placeholder="Registration No:">
+                </div>
+
+                <div class="col-md-2">
+                    <select id="brand" class="form-select">
+                        <option value="Dodge">Brand</option>
+                        <option value="BM2">BM2</option>
+                        <option value="Mazda">Mazda</option>
+                        <option value="Toyota">Toyota</option>
+                        <option value="Volvo">Volvo</option>
+                        <option value="Tesla">Tesla</option>
+                        <option value="Audi">Audi</option>
+                    </select>
+
+                </div>
+                <div class="col-md-2">
+                    <select id="adCarColor" class="form-select">
+                        <option selected>Choose Color</option>
+                        <option>Red</option>
+                        <option>Black</option>
+                        <option>Brown</option>
+                        <option>White</option>
+                        <option>Silver</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <select id="adCarType" class="form-select">
+                        <option selected>Car Type</option>
+                        <option>General</option>
+                        <option>Premium</option>
+                        <option>Luxury</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <select id="adCarPassengers" class="form-select">
+                        <option selected>Passengers</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <select id="adCarFuel" class="form-select">
+                        <option selected>Fuel Type</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <select id="adCarTransmission" class="form-select">
+                        <option selected>Transmission Type</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                </div>
+                <div id="rentPrices1" class="col-md-2">
+                    <input type="text" class="form-control" id="adCarExtraKm" placeholder="Price For Extra Km">
+                </div>
+                <div id="rentPrices3" class="col-md-3">
+                    <input type="text" class="form-control" id="adCarDamage" placeholder="Loss Damage Wavier(Rs)">
+                </div>
+                <div  class="col-md-2">
+                    <input type="text" class="form-control" id="adCarDailyRate" placeholder="Daily Rates(Rs.)">
+                </div>
+                <div  class="col-md-2">
+                    <input type="text" class="form-control" id="adCarMonthlyRate" placeholder="Monthly Rates(Rs.)">
+                </div>
+                <div  class="col-md-2">
+                    <input type="text" class="form-control" id="adCarMillagePrice" placeholder="Free Millage Price">
+                </div>
+                <div  class="col-md-2">
+                    <input type="text" class="form-control" id="adCarDuration" placeholder="Free Millage Duration">
+                </div>
+                <div id="crudBtn" class="row m-3" >
+                    <div class="d-grid gap-3 d-md-flex justify-content-md-center">
+                        <button type="button" class="btn btn-primary">Save</button>
+                        <button type="button" class="btn btn-success">Update</button>
+                        <button type="button" class="btn btn-danger">Delete</button>
+                        <button type="button" class="btn btn-info">Get All</button>
+                        <button type="button" class="btn btn-warning">Clear All</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <section id="carTable" class="mt-5">
+            <table class="table table table-primary table table-bordered">
+                <thead id="tblCarHeader">
+                <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Reg No:</th>
+                    <th scope="col">Brand</th>
+                    <th scope="col">Car Type</th>
+                    <th scope="col">No of Passengers</th>
+                    <th scope="col">Transmission</th>
+                    <th scope="col">Fuel Type</th>
+                    <th scope="col">Colour</th>
+                </tr>
+                </thead>
+                <tbody class="tblCarBody">
+                </tbody >
+            </table>
+        </section>
+
+    </div>
+
+</section>
 
 
 </main>
