@@ -8,8 +8,10 @@
     scroll-behavior: smooth;
 }
 #customerProfile{
+    width: 100%;
     height: 100vh;
 }
+/**/
 #cover1{
     width: 80%;
     height: 93%;
@@ -23,13 +25,14 @@
 }
 #bookingRequest{
     width: 100%;
+    height: 100vh;
 }
 #cover2{
     width: 80%;
-    height: 60%;
-    position: absolute;
+    height: 72%;
+    position: relative;
     margin: auto;
-    top: 1500px;
+    top: 173px;
     right: 0;
     bottom: 0;
     left: 0;
@@ -41,3 +44,5 @@
 #bookingRequest section{
     padding: 30px;
 }
+
+
