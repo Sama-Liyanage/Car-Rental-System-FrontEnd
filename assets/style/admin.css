@@ -30,7 +30,7 @@
 }
 #cover2{
     width: 80%;
-    height: 77%;
+    height: 75%;
     position: relative;
     margin: auto;
     top: 117px;
@@ -39,6 +39,38 @@
     left: 0;
     background-color: #dfe6e9;
 }
+#card{
+    position: absolute;
+    top: 19px;
+    width: 95%;
+    left: 25px;
+    height: 483px;
+}
+.card-body div{
+    margin: 5px;
+}
+#adminProfileImage{
+    position: relative;
+    top: -243px;
+    left: 747px;
+    width: 14rem;
+}
+#btnSave{
+    position: relative;
+    top: 57px;
+    left: 394px;
+    width: 126px;
+}
+
+#btnUpdate{
+    position: relative;
+    left: 82px;
+    top: 57px;
+    width: 146px;
+}
+
+
+
 
 /*                                                 */
 #ad-Customer{
