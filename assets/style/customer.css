@@ -61,5 +61,12 @@
     background-color: #dfe6e9;
 }
 #paymentTable{
+    bottom: 184px;
+    position: relative;
     padding: 95px;
+}
+#payment img{
+    position: relative;
+    height: 44vh;
+    filter: brightness(0.9);
 }
