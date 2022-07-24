@@ -140,9 +140,78 @@ header{
     align-items: center;
     text-align: center;
 }
+/*Footer*/
 
+#footer{
+    position: relative;
+    top: 934px;
+    padding: 50px 0 30px;
+    width: 100%;
+    height: 38vh;
+    /*background-color: #D6A2E8;*/
+}
 
-
+hr{
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #6610f2;
+}
+.footer-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-left-col{
+    flex-basis: 50%;
+    margin-top: 60px;
+}
+.footer-right-col{
+    flex-basis: 35%;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.link-title h4{
+    color: #6610f2;
+    margin-bottom: 20px;
+}
+.link-title small{
+    font-size: 13px;
+    color: #777;
+}
+.footer-info{
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-logo img{
+    width: 100px;
+}
+.footer-logo button{
+    padding: 12px 38px;
+    margin-top: 20px;
+    font-size: 10px;
+}
+.copyright-text,.footer-logo{
+    flex-basis: 40px;
+}
+.social-icons{
+    width: 50px;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.social-icons img{
+    display: block;
+    width: 20px;
+    margin: 0 auto 20px;
+    cursor: pointer;
+}
 
 
 
