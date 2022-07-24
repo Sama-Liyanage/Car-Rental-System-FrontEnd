@@ -6,20 +6,38 @@
     list-style: none;
     text-decoration: none;
     scroll-behavior: smooth;
-    overflow-x: hidden;
 }
 #customerProfile{
     height: 100vh;
-    width: 100%;
 }
 #cover1{
     width: 80%;
-    height: 81%;
-    position: relative;
+    height: 93%;
+    position: absolute;
     margin: auto;
     top: 97px;
     right: 0;
     bottom: 0;
     left: 0;
     background-color: #dfe6e9;
+}
+#bookingRequest{
+    width: 100%;
+}
+#cover2{
+    width: 80%;
+    height: 60%;
+    position: absolute;
+    margin: auto;
+    top: 1500px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #dfe6e9;
+}
+#bookingRequest form{
+    padding: 72px;
+}
+#bookingRequest section{
+    padding: 30px;
 }
