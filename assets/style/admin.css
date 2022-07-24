@@ -217,4 +217,13 @@
 }
 #paymentTable{
     padding: 80px;
+    position: relative;
+    bottom: 557px;
 }
+
+#ad-Payment img{
+    position: relative;
+    height: 77vh;
+    filter: brightness(0.9);
+}
+
