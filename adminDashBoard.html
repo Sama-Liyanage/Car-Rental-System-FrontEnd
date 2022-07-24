@@ -21,7 +21,7 @@
         <li class="nav-item"><a class="nav-link " aria-current="page" href="#adminProfile">My Profile</a></li>
         <li class="nav-item"><a class="nav-link " aria-current="page" href="#ad-Customer">Customers</a></li>
         <li class="nav-item"><a class="nav-link " aria-current="page" href="#ad-Car">Cars</a></li>
-        <li class="nav-item"><a class="nav-link " aria-current="page" href="">Drivers</a></li>
+        <li class="nav-item"><a class="nav-link " aria-current="page" href="#ad-Driver">Drivers</a></li>
         <li class="nav-item"><a class="nav-link " aria-current="page" href="">Orders</a></li>
         <li class="nav-item"><a class="nav-link " aria-current="page" href="">Payments</a></li>
     </ul>
@@ -239,6 +239,82 @@
     </div>
 
 </section>
+
+<!--Driver Section-->
+<section id="ad-Driver">
+    <div id="cover5">
+
+
+        <div id="driverDiv">
+                <form class="row g-3">
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" id="adDriverId" placeholder="D###">
+                    </div>
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" id="adDriverName" placeholder="Driver Full Name">
+                    </div>
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" id="adDriverNIC" placeholder="NIC">
+                    </div>
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" id="adDriverContact" placeholder="Contact Nu:">
+                    </div>
+
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" id="adDriverEmail" placeholder="E-Mail">
+                    </div>
+
+
+
+                    <div id="drivercrudBtn" class="row m-3" >
+                        <div class="d-grid gap-3 d-md-flex justify-content-md-center">
+                            <button type="button" class="btn btn-primary">Save</button>
+                            <button type="button" class="btn btn-success">Update</button>
+                            <button type="button" class="btn btn-danger">Delete</button>
+                            <button type="button" class="btn btn-info">Get All</button>
+                            <button type="button" class="btn btn-warning">Clear All</button>
+
+                        </div>
+                    </div>
+
+                    <div id="driverSearch" class="col-md-2" >
+                        <input class="form-control me-2" type="search" id="driverCustomer" placeholder="Search" aria-label="Search">
+                        <button id="driverSearchbtn" class="btn btn-outline-success" type="submit">Search</button>
+                    </div>
+
+                </form>
+
+
+        <section id="driverTable" class="mt-5">
+                <table class="table table table-primary table table-bordered">
+                    <thead id="tblDriver">
+                    <tr>
+                        <th scope="col">Driver ID</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">NIC</th>
+                        <th scope="col">Contact</th>
+                        <th scope="col">E-Mail</th>
+                    </tr>
+                    </thead>
+                    <tbody class="tblDriverBody">
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+
+                    </tbody >
+                </table>
+            </section>
+
+    </div>
+    </div>
+</section>
+
+
+
 
 
 </main>

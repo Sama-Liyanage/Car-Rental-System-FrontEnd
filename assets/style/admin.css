@@ -104,3 +104,42 @@
     top: 93px;
     padding: 20px;
 }
+/*                                                */
+#ad-Driver{
+    width: 100%;
+    height: 100vh;
+}
+#cover5{
+    width: 80%;
+    height: 77%;
+    position: relative;
+    margin: auto;
+    top: 117px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #dfe6e9;
+}
+#driverSearch{
+    position: relative;
+    bottom: 240px;
+    left: 2px;
+}
+
+#driverSearchbtn{
+    position: relative;
+    top: -38px;
+    left: 167px;
+}
+#driverDiv{
+    position: relative;
+    top: 136px;
+    padding: 0px 67px;
+}
+#driverTable{
+    position: relative;
+    top: -105px;
+    padding: 20px;
+}
+
+
