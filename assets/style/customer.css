@@ -45,4 +45,21 @@
     padding: 30px;
 }
 
-
+#payment{
+    width: 100%;
+    height: 100vh;
+}
+#cover3{
+    width: 80%;
+    height: 73%;
+    position: relative;
+    margin: auto;
+    top: 140px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #dfe6e9;
+}
+#paymentTable{
+    padding: 95px;
+}
