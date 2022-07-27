@@ -24,7 +24,7 @@
     background-color: #dfe6e9;
 }
 
-#adminProfile{
+#admin_profile_Page{
     width: 100%;
     height: 100vh;
 }
@@ -70,7 +70,7 @@
 }
 
 /*                                                 */
-#ad-Customer{
+#admin_Customer_Page{
     width: 100%;
     height: 100vh;
 }
@@ -108,7 +108,7 @@
     padding: 20px;
 }
 /*                                                */
-#ad-Car{
+#\#admin_Car_Page{
     width: 100%;
     height: 100vh;
 }
@@ -134,7 +134,7 @@
     padding: 20px;
 }
 /*                                                */
-#ad-Driver{
+#admin_Driver_Page{
     width: 100%;
     height: 100vh;
 }
@@ -171,7 +171,7 @@
     padding: 20px;
 }
 /*                                 */
-#ad-Order{
+#admin_Order_Page{
     width: 100%;
     height: 100vh;
 }
@@ -197,7 +197,7 @@
     filter: brightness(0.9);
 }
 /*                            */
-#ad-Payment{
+#admin_Payment_Page{
     width: 100%;
     height: 100vh;
 }
