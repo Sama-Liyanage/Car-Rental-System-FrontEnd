@@ -44,6 +44,11 @@
 #bookingRequest section{
     padding: 30px;
 }
+#btnPlaceOrder{
+    position: relative;
+    left: 1046px;
+}
+
 /*         */
 #payment{
     width: 100%;
@@ -92,4 +97,8 @@
     padding: 95px;
     top: 6px;
 }
-
+#btnCarsRefresh{
+    position: relative;
+    top: -208px;
+    left: 1013px;
+}
