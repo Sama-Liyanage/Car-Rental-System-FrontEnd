@@ -17,7 +17,7 @@
 <!--Navigation-->
 <header>
     <ul class="navlist">
-<!--        <li class="nav-item"><a class="nav-link " aria-current="page" href="#admin_Home_Page">Admin DashBoard</a></li>-->
+        <li class="nav-item"><a class="nav-link " aria-current="page" href="#admin_Home_Page">Admin DashBoard</a></li>
         <li class="nav-item"><a class="nav-link " aria-current="page" id="#admin_profile_Page" href="#admin_profile_Page">My Profile</a></li>
         <li class="nav-item"><a class="nav-link " aria-current="page" id="#admin_Customer_Page" href="#admin_Customer_Page">Customers</a></li>
         <li class="nav-item"><a class="nav-link " aria-current="page" id="#admin_Car_Page" href="#admin_Car_Page">Cars</a></li>
@@ -29,13 +29,180 @@
 
 <body>
 <main>
-<!--&lt;!&ndash;Admin DashBoard&ndash;&gt;-->
-<!--   <section id="admin_Home_Page">-->
-<!--       <div id="cover1">-->
+<!--Admin DashBoard-->
+   <section id="admin_Home_Page">
 
-<!--       </div>-->
+       <div id="cover1">
 
-<!--   </section>-->
+
+           <div id="content" class="m-0 p-0">
+               <nav class="navbar navbar-light navbar-expand bg-white shadow topbar static-top">
+                   <div class="container-fluid">
+                       <button class="btn btn-link d-md-none rounded-circle mr-3" type="button"></button>
+                       <form class="form-inline d-none d-sm-inline-block mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+                           <div class="input-group"><input class="bg-light form-control border-0 small" type="text"
+                                                           placeholder="Search for ...">
+                               <div class="input-group-append">
+                                   <button class="btn py-0" type="button"><img src="../assets/images/other/searchIcon.ico">
+                                   </button>
+                               </div>
+                           </div>
+                       </form>
+                       <div class="nav-item dropdown no-arrow">
+                           <a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">
+                               <span class="d-none d-lg-inline mr-2 text-gray-600 small" style="font-size: 1rem">Samadhi Nilakshana</span>
+                               <img class="rounded-circle img-profile" src="../assets/images/other/businessmanIcon.png"></a>
+                           <div class="dropdown-menu shadow dropdown-menu-right animated--grow-in" role="menu">
+                               <a class="dropdown-item" role="presentation" style="cursor: pointer" id="btnAdminProfile">Profile</a>
+                               <div class="dropdown-divider">
+                               </div>
+                               <a class="dropdown-item" href="../index.html" role="presentation" style="cursor: pointer"
+                                  id="btnAdminLogout">Logout</a></div>
+
+                       </div>
+                   </div>
+               </nav>
+           </div>
+
+               <div class="container-fluid">
+                   <div class="row mt-4">
+                       <div class="col-md-6 col-xl-3 mb-4">
+                           <div class="card shadow border-left-warning py-2">
+                               <div class="card-body">
+                                   <div class="row align-items-center no-gutters">
+                                       <div class="col mr-2">
+                                           <div class="text-uppercase text-warning font-weight-bold text-xs mb-1">
+                                               <span>Customers</span>
+                                           </div>
+                                           <div class="text-dark font-weight-bold h5 mb-0"><span id="TxtCustomerCount">7</span>
+                                           </div>
+                                       </div>
+                                       <div class="col-auto"><img id="custom_pic"
+                                                                  src="../assets/images/other/customerIcon.png">
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="col-md-6 col-xl-3 mb-4">
+                           <div class="card shadow border-left-warning py-2">
+                               <div class="card-body">
+                                   <div class="row align-items-center no-gutters">
+                                       <div class="col mr-2">
+                                           <div class="text-uppercase text-warning font-weight-bold text-xs mb-1">
+                                               <span>Cars</span>
+                                           </div>
+                                           <div class="text-dark font-weight-bold h5 mb-0"><span
+                                                   id="txtCarCount">15</span></div>
+                                       </div>
+                                       <div class="col-auto"><img id="car_pic"
+                                                                  src="../assets/images/other/carIcon.png">
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="col-md-6 col-xl-3 mb-4">
+                           <div class="card shadow border-left-warning py-2">
+                               <div class="card-body">
+                                   <div class="row align-items-center no-gutters">
+                                       <div class="col mr-2">
+                                           <div class="text-uppercase text-warning font-weight-bold text-xs mb-1">
+                                               <span>Drivers</span></div>
+                                           <div class="row no-gutters align-items-center">
+                                               <div class="col-auto">
+                                                   <div class="text-dark font-weight-bold h5 mb-0" id="txtDriverCount">
+                                                       5<span></span>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                       </div>
+                                       <div class="col-auto"><img id="driver_pic"
+                                                                  src="../assets/images/other/driverIcon.png">
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                       <div class="col-md-6 col-xl-3 mb-4">
+                           <div class="card shadow border-left-warning py-2">
+                               <div class="card-body">
+                                   <div class="row align-items-center no-gutters">
+                                       <div class="col mr-2">
+                                           <div class="text-uppercase text-warning font-weight-bold text-xs mb-1">
+                                               <span>Orders</span>
+                                           </div>
+                                           <div class="text-dark font-weight-bold h5 mb-0"><span
+                                                   id="txtOrderCount">10</span></div>
+                                       </div>
+                                       <div class="col-auto"><img id="order_pic"
+                                                                  src="../assets/images/other/purchaseOrderIcon.png">
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+
+
+                   <div class="adminHomePageSection">
+                       <div class="row">
+                           <div class="col-lg-7 col-xl-8">
+                               <div class="card shadow mb-4">
+                                   <div class="card-header d-flex justify-content-between align-items-center">
+                                       <h6 class="text-primary font-weight-bold m-0">Overview</h6>
+                                       <div class="dropdown no-arrow">
+                                           <button class="btn btn-link btn-sm dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">
+                                               <i class="fas fa-ellipsis-v text-gray-400"></i>
+                                           </button>
+                                           <div class="dropdown-menu shadow dropdown-menu-right animated--fade-in" role="menu">
+                                               <p class="text-center dropdown-header">dropdown header:</p>
+                                               <a class="dropdown-item" role="presentation" href="#">&nbsp;Action</a>
+                                               <a class="dropdown-item" role="presentation" href="#">&nbsp;Another action</a>
+                                               <div class="dropdown-divider">
+                                               </div><a class="dropdown-item" role="presentation" href="#">&nbsp;Something else here</a></div>
+                                       </div>
+                                   </div>
+                                   <div class="card-body" id="chart1">
+                                       <div class="chart-area mt-3">
+                                           <canvas data-bs-chart="{&quot;type&quot;:&quot;line&quot;,&quot;data&quot;:{&quot;labels&quot;:[&quot;Jan&quot;,&quot;Feb&quot;,&quot;Mar&quot;,&quot;Apr&quot;,&quot;May&quot;,&quot;Jun&quot;,&quot;Jul&quot;,&quot;Aug&quot;]
+                                            ,&quot;datasets&quot;:[{&quot;label&quot;:&quot;Earnings&quot;,&quot;fill&quot;:true,&quot;data&quot;:[&quot;0&quot;,&quot;10000&quot;,&quot;5000&quot;,&quot;15000&quot;,&quot;10000&quot;,&quot;20000&quot;,&quot;15000&quot;,&quot;25000&quot;],&quot;backgroundColor&quot;:&quot;rgba(78, 115, 223, 0.05)&quot;,&quot;borderColor&quot;:&quot;rgba(78, 115, 223, 1)&quot;}]},&quot;options&quot;:{&quot;maintainAspectRatio&quot;:false,&quot;legend&quot;:{&quot;display&quot;:false},&quot;title&quot;:{},&quot;scales&quot;:{&quot;xAxes&quot;:[{&quot;gridLines&quot;:{&quot;color&quot;:&quot;rgb(234, 236, 244)&quot;,&quot;zeroLineColor&quot;:&quot;rgb(234, 236, 244)&quot;,&quot;drawBorder&quot;:false,&quot;drawTicks&quot;:false,&quot;borderDash&quot;:[&quot;2&quot;],&quot;zeroLineBorderDash&quot;:[&quot;2&quot;],&quot;drawOnChartArea&quot;:false},&quot;ticks&quot;:{&quot;fontColor&quot;:&quot;#858796&quot;,&quot;padding&quot;:20}}],&quot;yAxes&quot;:[{&quot;gridLines&quot;:{&quot;color&quot;:&quot;rgb(234, 236, 244)&quot;,&quot;zeroLineColor&quot;:&quot;rgb(234, 236, 244)&quot;,&quot;drawBorder&quot;:false,&quot;drawTicks&quot;:false,&quot;borderDash&quot;:[&quot;2&quot;],&quot;zeroLineBorderDash&quot;:[&quot;2&quot;]},&quot;ticks&quot;:{&quot;fontColor&quot;:&quot;#858796&quot;,&quot;padding&quot;:20}}]}}}"></canvas></div>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="col-lg-7 col-xl-4">
+                               <div class="card shadow">
+                                   <div class="card-header d-flex justify-content-between align-items-center">
+                                       <h6 class="text-primary font-weight-bold m-0">Revenue Sources</h6>
+                                       <div class="dropdown no-arrow"><button class="btn btn-link btn-sm dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button"><i class="fas fa-ellipsis-v text-gray-400"></i></button>
+                                           <div class="dropdown-menu shadow dropdown-menu-right animated--fade-in"
+                                                role="menu">
+                                               <p class="text-center dropdown-header">dropdown header:</p><a class="dropdown-item" role="presentation" href="#">&nbsp;Action</a><a class="dropdown-item" role="presentation" href="#">&nbsp;Another action</a>
+                                               <div class="dropdown-divider"></div><a class="dropdown-item" role="presentation" href="#">&nbsp;Something else here</a></div>
+                                       </div>
+                                   </div>
+                                   <div class="card-body">
+                                       <div class="chart-area"><canvas data-bs-chart="{&quot;type&quot;:&quot;doughnut&quot;,&quot;data&quot;:{&quot;labels&quot;:[&quot;Direct&quot;,&quot;Social&quot;,&quot;Referral&quot;],&quot;datasets&quot;:[{&quot;label&quot;:&quot;&quot;,&quot;backgroundColor&quot;:[&quot;#4e73df&quot;,&quot;#1cc88a&quot;,&quot;#36b9cc&quot;],&quot;borderColor&quot;:[&quot;#ffffff&quot;,&quot;#ffffff&quot;,&quot;#ffffff&quot;],&quot;data&quot;:[&quot;50&quot;,&quot;30&quot;,&quot;15&quot;]}]},&quot;options&quot;:{&quot;maintainAspectRatio&quot;:false,&quot;legend&quot;:{&quot;display&quot;:false},&quot;title&quot;:{}}}"></canvas></div>
+                                       <div class="text-center small">
+                                           <span class="mr-2"><i class="fas fa-circle text-primary"></i>&nbsp;Cars</span>
+                                           <span class="mr-2"><i class="fas fa-circle text-success"></i>&nbsp;Drivers</span>
+                                           <span class="mr-2"><i class="fas fa-circle text-info"></i>&nbsp;Customers</span>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+
+                   </div>
+               </div>
+               </div>
+
+
+
+
+       </div>
+
+   </section>
 
 <!--Admin Profile-->
 <section id="admin_profile_Page">
@@ -423,6 +590,10 @@
 <script src="../assets/js/admin/adminCustomer.js"></script>
 <script src="../assets/js/admin/adminDriver.js"></script>
 <script src="../assets/js/admin/adminOrder.js"></script>
+
+<script src="../assets/js/admin/chart.min.js"></script>
+<script src="../assets/js/admin/bs-init.js"></script>
+<script src="../assets/js/admin/theme.js"></script>
 
 </body>
 </html>
