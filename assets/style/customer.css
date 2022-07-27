@@ -11,7 +11,6 @@
     width: 100%;
     height: 100vh;
 }
-/**/
 #cover1{
     width: 80%;
     height: 93%;
@@ -23,6 +22,7 @@
     left: 0;
     background-color: #dfe6e9;
 }
+/*        */
 #bookingRequest{
     width: 100%;
     height: 100vh;
@@ -44,7 +44,7 @@
 #bookingRequest section{
     padding: 30px;
 }
-
+/*         */
 #payment{
     width: 100%;
     height: 100vh;
@@ -70,3 +70,26 @@
     height: 44vh;
     filter: brightness(0.9);
 }
+/*       */
+#customer_Car{
+    width: 100%;
+    height: 100vh;
+}
+#cover4{
+    width: 80%;
+    height: 73%;
+    position: relative;
+    margin: auto;
+    top: 140px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #dfe6e9;
+}
+#cust_CarTable{
+    bottom: 184px;
+    position: relative;
+    padding: 95px;
+    top: 6px;
+}
+
