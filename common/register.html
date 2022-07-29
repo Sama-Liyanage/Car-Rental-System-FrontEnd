@@ -11,45 +11,91 @@
 <body>
 
 <section id="registerPage">
-    <img id="registrationImage" src="../assets/images/other/registrationImage.png">
 
-    <div id="registerDiv">
-        <form class="row g-3">
-            <div class="col-md-3">
-                <input type="text" class="form-control"  placeholder="First Name" name="first_name" id="txtFName">
-                <small class="text-danger" id="errortxtFName" style="display: none">! Wrong format (Only
-                    A-z,space and . can be included) </small>
-            </div>
+    <div id="cover">
 
-            <div class="col-md-3">
-                <input type="text" class="form-control"  placeholder="Last Name"  name="last_name" id="txtLName">
-                <small class="text-danger" id="errortxtLName" style="display: none">! Wrong format (Only
-                    A-z,space and . can be included) </small>
-            </div>
+        <h1> Sign Up</h1>
 
-            <div class="col-md-3">
-                <input type="text" class="form-control" placeholder="E-Mail Address"  name="email" id="txtEmail">
-                <small class="text-danger" id="errortxtEmail" style="display: none">! Wrong format  </small>
-            </div>
-            <div class="col-md-3">
-                <input type="password" class="form-control"  placeholder="Password" name="password" id="txtPassword">
-                <small class="text-danger" id="errortxtPassword" style="display: none">! Wrong format (Password must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters)</small>
-            </div>
+        <img id="registrationImage" src="../assets/images/other/registrationImage.png">
 
-            <div class="col-md-3">
-            <input class="form-control" type="password" placeholder="Repeat Password" name="password_repeat" id="txtConfirmPassword">
-                <small class="text-danger" id="errortxtConfirmPassword" style="display: none">Password did not match</small>
-            </div>
+        <div id="registerDiv">
+            <form class="row g-3">
+                <div class="col-md-3">
+                    <input type="text" class="form-control"  placeholder="Name"  id="inputName">
+                </div>
 
-            <button id="btn_Register" class="btn btn-success" type="button"> Register Account </a></button>
+                <div class="col-md-3">
+                    <input type="text" class="form-control"  placeholder="Contact No." id="inputContactNo">
+                </div>
+
+                <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="Address" id="inputAddress">
+                </div>
+
+                <div class="col-md-5">
+                    <input type="text" class="form-control"  placeholder="E-Mail"  id="inputEmail">
+                </div>
+
+                <div class="col-md-5">
+                    <input type="text" class="form-control"  placeholder="Driving License Number"  id="inputDrivingLicence">
+                </div>
+
+                <div class="col-md-5">
+                    <input type="text" class="form-control"  placeholder="NIC No"  id="inputNIC">
+                </div>
+
+                <div class="col-md-3">
+                    <input type="text" class="form-control"  placeholder="User Name"  id="inputUserName">
+                </div>
+
+                <div class="col-md-3">
+                    <input class="form-control" type="password" placeholder="Password" id="inputPassword">
+                </div>
 
 
-            <div id="ftnPassword" class="text-center"><a class="small" href="">Forgottten Password?</a>
-            </div>
 
-            <div id="haveAccount" class="text-center"><a class="small" href="logIn.html">Already have an account? Login!</a>
-            </div>
-        </form>
+                 <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                     <span class="input-group-text"
+                                              id="inputGroupFileAddon01">Upload NIC(Front)</span>
+                    </div>
+                    <div>
+                        <input class="form-control w-100" id="inputfile1" type="file">
+                    </div>
+                </div>
+
+                <div class="input-group mb-3">
+
+                    <div class="input-group-prepend">
+                                        <span class="input-group-text"
+                                              id="inputGroupFileAddon02">Upload NIC(Back)</span>
+                    </div>
+
+                    <div>
+                        <input class="form-control w-100" id="inputfile2" type="file">
+                    </div>
+                </div>
+
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                                        <span class="input-group-text"
+                                              id="inputGroupFileAddon03">Driving License</span>
+                    </div>
+                    <div>
+                        <input class="form-control w-100" id="inputfile3" type="file">
+                    </div>
+                </div>
+
+                <button id="btncreate" class="btn btn-success" type="button"> Create Account </a></button>
+
+                <div id="ftnPassword" class="text-center"><a class="small" href="">Forgottten Password?</a>
+                </div>
+
+                <div id="haveAccount" class="text-center"><a class="small" href="logIn.html">Already have an account? Login!</a>
+                </div>
+            </form>
+        </div>
+
     </div>
 
 </section>

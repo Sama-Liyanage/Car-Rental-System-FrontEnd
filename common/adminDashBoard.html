@@ -17,7 +17,7 @@
 <!--Navigation-->
 <header>
     <ul class="navlist">
-        <li class="nav-item"><a class="nav-link " aria-current="page" href="#admin_Home_Page">Admin DashBoard</a></li>
+        <li class="nav-item"><a class="nav-link " aria-current="page" id="#admin_Home_Page" href="#admin_Home_Page">Admin DashBoard</a></li>
         <li class="nav-item"><a class="nav-link " aria-current="page" id="#admin_profile_Page" href="#admin_profile_Page">My Profile</a></li>
         <li class="nav-item"><a class="nav-link " aria-current="page" id="#admin_Customer_Page" href="#admin_Customer_Page">Customers</a></li>
         <li class="nav-item"><a class="nav-link " aria-current="page" id="#admin_Car_Page" href="#admin_Car_Page">Cars</a></li>
@@ -30,10 +30,9 @@
 <body>
 <main>
 <!--Admin DashBoard-->
-   <section id="admin_Home_Page">
+<section id="admin_Home_Page">
 
        <div id="cover1">
-
 
            <div id="content" class="m-0 p-0">
                <nav class="navbar navbar-light navbar-expand bg-white shadow topbar static-top">
@@ -64,7 +63,7 @@
                </nav>
            </div>
 
-               <div class="container-fluid">
+           <div class="container-fluid">
                    <div class="row mt-4">
                        <div class="col-md-6 col-xl-3 mb-4">
                            <div class="card shadow border-left-warning py-2">
@@ -195,11 +194,6 @@
 
                    </div>
                </div>
-               </div>
-
-
-
-
        </div>
 
    </section>
@@ -330,6 +324,11 @@
 <section id="admin_Car_Page">
     <div id="cover4">
 
+        <div id="carSearch" class="col-md-2" >
+            <input class="form-control me-2" type="search" id="searchCar" placeholder="Search" aria-label="Search">
+            <button id="carSearchbtn" class="btn btn-outline-success" type="submit">Search</button>
+        </div>
+
         <div id="carDiv">
             <form class="row g-3">
                 <div class="col-md-2">
@@ -341,7 +340,7 @@
 
                 <div class="col-md-2">
                     <select id="brand" class="form-select">
-                        <option value="Dodge">Brand</option>
+                        <option selected>Car Brand</option>
                         <option value="BM2">BM2</option>
                         <option value="Mazda">Mazda</option>
                         <option value="Toyota">Toyota</option>
@@ -354,19 +353,19 @@
                 <div class="col-md-2">
                     <select id="adCarColor" class="form-select">
                         <option selected>Choose Color</option>
-                        <option>Red</option>
-                        <option>Black</option>
-                        <option>Brown</option>
-                        <option>White</option>
-                        <option>Silver</option>
+                        <option value="Red">Red</option>
+                        <option value="Black">Black</option>
+                        <option value="Brown">Brown</option>
+                        <option value="White">White</option>
+                        <option value="Silver">Silver</option>
                     </select>
                 </div>
                 <div class="col-md-2">
                     <select id="adCarType" class="form-select">
                         <option selected>Car Type</option>
-                        <option>General</option>
-                        <option>Premium</option>
-                        <option>Luxury</option>
+                        <option value="General">General</option>
+                        <option value="Premium">Premium</option>
+                        <option value="Luxury">Luxury</option>
                     </select>
                 </div>
                 <div class="col-md-2">
@@ -390,7 +389,6 @@
                         <option selected>Transmission Type</option>
                         <option>1</option>
                         <option>2</option>
-                        <option>3</option>
                     </select>
                 </div>
                 <div id="rentPrices1" class="col-md-2">
@@ -438,7 +436,7 @@
                 </tr>
                 </thead>
                 <tbody class="tblCarBody">
-                </tbody >
+                </tbody>
             </table>
         </section>
 
@@ -521,8 +519,8 @@
 <!--    Order Section-->
 <section id="admin_Order_Page">
         <div id="cover6">
+            <button id="btnOrdersRefresh"  type="button" class="btn btn-warning">Refresh</button>
 
-            <button type="button" class="btn btn-warning" id="btnOrdersRefresh" >Refresh</button>
 
             <img src="../assets/images/other/Image10.jpg">
 

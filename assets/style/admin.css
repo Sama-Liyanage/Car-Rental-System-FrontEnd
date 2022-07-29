@@ -17,7 +17,7 @@
     height: 75%;
     position: relative;
     margin: auto;
-    top: 97px;
+    top: 130px;
     right: 0;
     bottom: 0;
     left: 0;
@@ -133,6 +133,19 @@
     top: 93px;
     padding: 20px;
 }
+
+#carSearch{
+    position: relative;
+    top: 7vh;
+    left: 70px;
+}
+#carSearchbtn{
+    position: relative;
+    left: 200px;
+    bottom: 39px;
+}
+
+
 /*                                                */
 #admin_Driver_Page{
     width: 100%;
